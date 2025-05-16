@@ -1,6 +1,7 @@
+// apps/mobile/tsconfig.json
 {
-  "extends": "expo/tsconfig.base",
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "strict": true
+    "types": ["expo"]
   }
 }
