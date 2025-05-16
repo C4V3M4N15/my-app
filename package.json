@@ -1,17 +1,17 @@
 {
   "name": "setlist-hub",
   "private": true,
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
+  "devDependencies": {
+    "turbo": "^1.11.3"
+  },
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build",
     "lint": "turbo run lint",
     "clean": "turbo run clean"
   },
-  "devDependencies": {
-    "turbo": "^1.11.3"
-  }
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
 }
